@@ -1,0 +1,20 @@
+<!-- @dsCard group="Stationery" height=200 subtitle="Featured and drink tickets" -->
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;background:var(--ground);}
+  .stage{display:flex;flex-wrap:wrap;gap:var(--space-4);align-items:center;padding:var(--space-5);}
+  .ticket{background:var(--stock);color:var(--stock-ink);display:grid;gap:var(--space-1);text-align:center;padding:var(--space-3) var(--space-4);
+    clip-path:polygon(var(--notch) 0,calc(100% - var(--notch)) 0,100% var(--notch),100% calc(100% - var(--notch)),calc(100% - var(--notch)) 100%,var(--notch) 100%,0 calc(100% - var(--notch)),0 var(--notch));}
+  .eyebrow{font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;font-variant-numeric:lining-nums;}
+  .title{font-family:var(--font-display);font-size:32px;line-height:1.05;}
+  .detail{font-family:var(--font-sans);font-size:14px;}
+  .fine{font-family:var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;border-top:1px dashed var(--stock-ink);padding-top:var(--space-2);margin-top:var(--space-2);}
+  .small .title{font-size:24px;font-family:var(--font-accent);font-style:italic;font-weight:500;}
+</style></head>
+<body>
+<div class="stage">
+  <div class="ticket"><span class="eyebrow">Sábado · 8 PM</span><span class="title">Elton John</span><span class="detail">Palacio de los Deportes</span><span class="fine">Admit one · Nº 1975</span></div>
+  <div class="ticket small"><span class="eyebrow">Drink ticket</span><span class="title">Rocket Man</span><span class="fine">Primera ronda</span></div>
+</div>
+</body></html>

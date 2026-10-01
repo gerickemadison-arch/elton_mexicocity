@@ -1,0 +1,37 @@
+<!-- @dsCard group="Stationery" height=700 subtitle="With the one sunburst stop" -->
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;background:var(--ground);}
+  .card{background:var(--ground);color:var(--text);max-width:520px;}
+  .band{height:var(--space-6);position:relative;background:repeating-linear-gradient(90deg,var(--stripe) 0 var(--stripe-width),var(--ground) var(--stripe-width) calc(var(--stripe-width) + var(--stripe-gap)));}
+  .band::after{content:"";position:absolute;left:0;right:0;bottom:-11px;height:12px;background:radial-gradient(circle at 12px 0,var(--stripe) 11px,transparent 12px) 0 0/var(--scallop) 12px repeat-x;}
+  .inner{padding:var(--space-5) var(--space-5) var(--space-4);display:grid;gap:var(--space-1);}
+  .eyebrow{font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--label);font-variant-numeric:lining-nums;white-space:nowrap;}
+  h2{margin:0;font-family:var(--font-display);font-weight:400;font-size:48px;line-height:1;}
+  .aside{margin:0 0 var(--space-3);font-family:var(--font-accent);font-style:italic;font-weight:500;font-size:26px;color:var(--spark);}
+  .stop{display:grid;grid-template-columns:104px 1fr;gap:var(--space-3);padding:var(--space-3) 0;border-top:1px solid var(--seam);align-items:baseline;}
+  .name{display:block;font-family:var(--font-accent);font-style:italic;font-weight:500;font-size:21px;line-height:1.25;}
+  .detail{display:block;font-family:var(--font-sans);font-size:14px;color:var(--text-second);}
+  .feature{position:relative;overflow:hidden;background:var(--ground-deep);padding:var(--space-4) var(--space-3);display:grid;place-items:center;margin:var(--space-2) 0;}
+  .feature::before{content:"";position:absolute;left:50%;top:50%;width:220%;aspect-ratio:1;translate:-50% -50%;background:repeating-conic-gradient(var(--ray) 0 9deg,transparent 9deg 22.5deg);}
+  .ticket{position:relative;background:var(--stock);color:var(--stock-ink);text-align:center;display:grid;gap:var(--space-1);padding:var(--space-3) var(--space-4);
+    clip-path:polygon(var(--notch) 0,calc(100% - var(--notch)) 0,100% var(--notch),100% calc(100% - var(--notch)),calc(100% - var(--notch)) 100%,var(--notch) 100%,0 calc(100% - var(--notch)),0 var(--notch));}
+  .ticket .eyebrow{color:var(--stock-ink);}
+  .ticket .title{font-family:var(--font-display);font-size:32px;line-height:1.05;}
+  .ticket .where{font-family:var(--font-sans);font-size:14px;}
+</style></head>
+<body>
+<div class="card">
+  <div class="band"></div>
+  <div class="inner">
+    <span class="eyebrow">Ciudad de México · 17–19 feb</span>
+    <h2>El fin de semana</h2>
+    <p class="aside">una noche nada más</p>
+    <div class="stop"><span class="eyebrow">Vie · 7 PM</span><span><span class="name">Welcome mezcal</span><span class="detail">Rooftop in Roma Norte</span></span></div>
+    <div class="stop"><span class="eyebrow">Sáb · 11 AM</span><span><span class="name">Brunch</span><span class="detail">Garden table in Condesa</span></span></div>
+    <div class="feature"><div class="ticket"><span class="eyebrow">Sábado · 8 PM</span><span class="title">Elton John</span><span class="where">Palacio de los Deportes</span></div></div>
+    <div class="stop"><span class="eyebrow">Dom · 12 PM</span><span><span class="name">Recovery chilaquiles</span><span class="detail">Back at the hotel</span></span></div>
+  </div>
+</div>
+</body></html>
