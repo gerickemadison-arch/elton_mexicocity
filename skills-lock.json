@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "skills": {
+    "automation-design": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/store-automation/automation-design/SKILL.md",
+      "computedHash": "5400ba2485a9da22ef800c5ad29b6f15a8384d49efff985ed8676e1872b21592"
+    },
+    "automation-ledger": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/store-automation/automation-ledger/SKILL.md",
+      "computedHash": "8f19765c10daf71ebf652754922d0e43eaf5276365ca374441e65d8c2da17a78"
+    },
+    "automation-review": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/store-automation/automation-review/SKILL.md",
+      "computedHash": "2d01292c289177dfb8d341af5133a518c33ed45feb0d997357e2e6daaa5eb853"
+    },
+    "call-notes": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gtm-engineer/call-notes/SKILL.md",
+      "computedHash": "90bb29f593c12a235a922c4de072a050297b801a8ee1292833961aec2f75197e"
+    },
+    "churn-reduction": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/lifecycle-marketer/churn-reduction/SKILL.md",
+      "computedHash": "20dbba329121112136ae2bc64244617e30040deb4941afcd23818f46e6188890"
+    },
+    "competitive-analysis": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gtm-engineer/competitive-analysis/SKILL.md",
+      "computedHash": "742c68ac3e81a5efc8568229f18cbfa82004180ba9e8db8be871f468ab570ed2"
+    },
+    "customer-journey": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/lifecycle-marketer/customer-journey/SKILL.md",
+      "computedHash": "afc86f6884ef8907e0da62fef2e9f9d7250064fb98628cf91503ff1958b3a7c6"
+    },
+    "customer-segmentation": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/lifecycle-marketer/customer-segmentation/SKILL.md",
+      "computedHash": "5b81a9a14749ae20b7fe243876c2cf86947290da0740baad94a0a14e2b4ef647"
+    },
+    "daily-sales-report": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/store-automation/daily-sales-report/SKILL.md",
+      "computedHash": "cb96d91b2bb9396de1218835ff0827dd28de4225094916331c1d0787564dc5c0"
+    },
+    "email-campaign": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/lifecycle-marketer/email-campaign/SKILL.md",
+      "computedHash": "7a537ca3f4abbd4953d903a2e7ec5fe5582018fd39d97a828fb5931ee1949516"
+    },
+    "lead-management": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gtm-engineer/lead-management/SKILL.md",
+      "computedHash": "807b25ebb34b8e0df3a742d738dd75dc1ae7ccf8454fe67a5b9032a2031089c2"
+    },
+    "lead-routing": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gtm-engineer/lead-routing/SKILL.md",
+      "computedHash": "e64d12125f204c46fdf9b7ad53f4ed3aa7cf2f04b3c3987b1af1a4fdca81126f"
+    },
+    "margin-monitoring": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/store-automation/margin-monitoring/SKILL.md",
+      "computedHash": "fc6a3ff87467ce6618c46f26fb2086f48a42c2e8ac487b52aab9b5e53781752b"
+    },
+    "marketing-automation": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gtm-engineer/marketing-automation/SKILL.md",
+      "computedHash": "7a351fd3a65264d978a18e5faadccedd849b09d9e64200fd2654275f20740c17"
+    },
+    "product-catalog-audit": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/store-automation/product-catalog-audit/SKILL.md",
+      "computedHash": "f5f2733549729e2ca1bc46b7296c16332212e8a229d75dd03600a4fc8abf8af9"
+    },
+    "product-launch-checklist": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gtm-engineer/product-launch-checklist/SKILL.md",
+      "computedHash": "8ee1eb9eb80338578d7d38372be5d1565041c19001d70d53875c6e2afa7e5baf"
+    },
+    "product-launch-tracking": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/store-automation/product-launch-tracking/SKILL.md",
+      "computedHash": "819f069880d2a6f33b1e7fe0eee5826baee77029dc42eb9ecaefe57a156a168f"
+    },
+    "promotional-campaigns": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/lifecycle-marketer/promotional-campaigns/SKILL.md",
+      "computedHash": "5cb482517a31779e6a9e2f12479203f2e2461395920bae2a3937cc8f060f27db"
+    },
+    "referral-program": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/lifecycle-marketer/referral-program/SKILL.md",
+      "computedHash": "94787c9eda6a37e0abc2abc9bfbc198d625c3f1c98249b0c376f54d53be038cc"
+    },
+    "repeat-purchase-rate": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/lifecycle-marketer/repeat-purchase-rate/SKILL.md",
+      "computedHash": "b7774d10d102ed48ef592488b676afde704729e8d195797cea1e51ceed7812e8"
+    },
+    "sales-enablement": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gtm-engineer/sales-enablement/SKILL.md",
+      "computedHash": "66ab6655a6a0255ca99f3cf69e69d234b345dfe7335fd6cd98bd3b8e2f9b4109"
+    },
+    "stockout-alerts": {
+      "source": "sidchaudhary/gtm-skills",
+      "sourceType": "github",
+      "skillPath": "skills/store-automation/stockout-alerts/SKILL.md",
+      "computedHash": "b389167c6afd4118eeb81bdf5d58e53ad7cec58eb9153d3c4eee16da5166cd9d"
+    }
+  }
+}
